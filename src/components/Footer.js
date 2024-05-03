@@ -1,17 +1,19 @@
 import React from "react";
+import "../style/Footer.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
     <footer>
       <div>
         <a href="https://www.facebook.com">
-          <img src="facebook_logo.png" alt="Facebook" />
+          <FontAwesomeIcon icon="fa-brands fa-facebook" />
         </a>
         <a href="https://www.instagram.com">
-          <img src="instagram_logo.png" alt="Instagram" />
+          <FontAwesomeIcon icon="fa-brands fa-instagram" />
         </a>
         <a href="https://www.youtube.com">
-          <img src="youtube_logo.png" alt="YouTube" />
+          <FontAwesomeIcon icon="fa-brands fa-youtube" />
         </a>
       </div>
     </footer>

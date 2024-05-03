@@ -9,8 +9,6 @@ const Gallery = () => {
         <img src="image3.jpg" alt="Image 3" />
         <img src="image4.jpg" alt="Image 4" />
       </div>
-      <div className="row">{/* Add more images here */}</div>
-      {/* Add more rows here */}
     </div>
   );
 };
